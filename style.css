@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,200;1,200&family=Martel:wght@200&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  max-width: 978px;
+  margin: 0;
+  padding: 0;
+
+}
+header{
+  background-image: url(./background.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 2000px;
+  /* margin: 0;
+  padding: 0;  */
+  background-position:center ;
+}
+.navbar{
+ 
+  background-size: cover;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  font-family: 'Open Sans';  
+  font-size: 14px;
+}
+.logo{
+  color: white;
+  font-size: 24px;
+  margin-right: 20%;
+  margin-left: 5%;
+  font-family: 'Martel';
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px; 
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+button{
+  border: none;
+  background: #FFFFFF;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #FFFFFF;
+  position: relative;
+}
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: 'Montserrat';
+  line-height: 30px;
+}
